@@ -1,0 +1,14 @@
+@import '../../App.scss';
+
+.button{
+    cursor: pointer;
+    color: #FFF;
+    &.primary{
+        padding-top: $space-y-1;
+        padding-bottom: $space-y-1;
+        border: none;
+        border-radius: $border-rounded;
+        font-size: $price-state-font-size;
+        background-color: $blue;
+    }
+}

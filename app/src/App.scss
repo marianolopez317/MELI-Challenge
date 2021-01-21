@@ -1,0 +1,31 @@
+$white: #FFF;
+$meli-yellow : #FFE600;
+$black : #333333;
+$strong-grey : #666666;
+$grey : #999999;
+$light-grey : #EEEEEE;
+$blue : #3483FA;
+$space-y-1 :16px;
+$space-y-2 :32px;
+$space-x-1: 16px;
+$space-x-2: 32px;
+$space-x-3: 48px;
+$category-font-size: 14px;
+$location-state-font-size: 12px;
+$details-state-font-size: 18px;
+$price-state-font-size: 24px;
+$description-title: 28px;
+$description: 16px;
+$product-picture-height: 180px;
+$product-picture-width: 180px;
+$border-rounded: 4px;
+$icon-height: 20px;
+$icon-width: 20px;
+$height-screen: 100vh;
+
+
+.App {
+  width: 100%;
+  height: 100%;
+  background-color: $light-grey;
+}

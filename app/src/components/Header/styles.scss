@@ -1,0 +1,14 @@
+ @import '../../App.scss';
+
+.header{
+    background-color: $meli-yellow;
+    display:flex;
+    justify-content: center;
+    &-nav{
+        width: 80%;
+        display:flex;
+        flex-direction: row;
+        padding-top: $space-y-1;
+        padding-bottom: $space-y-1;;
+    }
+}

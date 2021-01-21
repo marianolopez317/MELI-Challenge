@@ -1,0 +1,23 @@
+@import '../../App.scss';
+
+.categories{
+    display: flex;
+    flex-direction: row;
+    padding-top: $space-y-1;
+    padding-bottom: $space-y-1;
+}
+.category{
+    padding-right: $space-x-1;
+    color: $grey;
+    font-size: $category-font-size;
+    &-active{
+        color: $strong-grey;
+        font-size: $category-font-size;
+        font-weight: bold;
+    }
+    &-arrow{
+        font-size: $category-font-size;
+        color: $grey;
+        padding-right: $space-x-1;
+    }
+}

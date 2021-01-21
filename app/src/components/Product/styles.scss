@@ -1,0 +1,50 @@
+@import '../../App.scss';
+
+.product{
+    display:flex;
+    flex-direction: row;
+    background-color:  $white;
+    margin-bottom: 1px;
+    cursor: pointer;
+    &-picture{
+        width: $product-picture-height;
+        height: $product-picture-width;
+        border-radius: $border-rounded;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        &-wrapper{
+            padding: $space-x-1;
+        }
+    }
+    &-detail{
+        width: 80%;
+        :first-child{
+            padding-right: $space-x-1;
+        }
+        &-price{
+            padding-top: $space-y-1;
+            font-size: $price-state-font-size;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            img{
+                padding-left: $space-x-1;
+                width: $icon-height;
+                height: $icon-width;
+            }
+        }
+        &-description{
+            padding-top: $space-y-2;
+            font-size: $details-state-font-size;
+            display:flex;
+            flex-direction: column;
+        }
+        &-location{
+            padding-top: $space-y-2;
+            font-size: $location-state-font-size;
+            color: $grey;
+            width: 20%;
+        }
+    }
+}
