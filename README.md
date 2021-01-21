@@ -1,16 +1,23 @@
 # MELI-Challenge
 Simple frontend challenge
 
-## Installation
-To run middleware change directory to /middleware then
+# Installation
+
+## middleware
+open a terminal and run:
 ```bash
-npm i && npm run start
+cd /middleware
+npm i
+npm run start
 ```
 the server will start in http://localhost:4000
 
-To run frontend client change directory to /app then
+## Client app 
+open another terminal and run:
 
 ```bash
-npm i && npm run start
+cd /app
+npm i
+npm run start
 ```
 the server to run the client wil start in http://localhost:3000
